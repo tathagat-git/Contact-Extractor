@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pdfplumber
+pytesseract
+Pillow
+python-docx
+docx2txt
+spacy
+python-multipart
+easyocr

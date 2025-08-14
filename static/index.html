@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Extractor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center min-h-screen p-6">
+  <h1 class="text-3xl font-bold mb-6">📄 AI Contact Extractor</h1>
+
+  <div class="bg-gray-800 p-6 rounded-2xl shadow-lg w-full max-w-lg">
+    <input type="file" id="fileInput" class="mb-4 w-full text-sm text-gray-300" />
+    <button onclick="uploadFile()" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg">
+      Extract Contacts
+    </button>
+  </div>
+
+  <div id="result" class="mt-6 w-full max-w-lg"></div>
+
+  <!-- Fix here: -->
+  <script src="/static/script.js"></script>
+</body>
+</html>
